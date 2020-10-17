@@ -10,7 +10,7 @@ import Icon24Back from '@vkontakte/icons/dist/24/back';
 
 const osName = platform();
 
-const Persik = props => (
+const Persik = ({props,fetchedUser}) => (
 	<Panel id={props.id}>
 		<PanelHeader
 			left={<PanelHeaderButton onClick={props.go} data-to="home">

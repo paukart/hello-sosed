@@ -8,7 +8,6 @@ import Div from '@vkontakte/vkui/dist/components/Div/Div';
 
 import './style.css';
 
-
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
 		{fetchedUser &&
@@ -28,7 +27,6 @@ const Home = ({ id, go, fetchedUser }) => (
 		</Group>
 	</Panel>
 );
-
 
 Home.propTypes = {
 	id: PropTypes.string.isRequired,
