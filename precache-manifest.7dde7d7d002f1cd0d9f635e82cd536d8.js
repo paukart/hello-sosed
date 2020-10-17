@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f96d6e715830619b58168e021bf0af82",
+    "revision": "9c2d9887c80287a801800fa8cba01a33",
     "url": "/hello-sosed/index.html"
   },
   {
-    "revision": "f80dcb169e9f158e0176",
+    "revision": "1aecf84e94a2f88d5234",
     "url": "/hello-sosed/static/css/2.86df01db.chunk.css"
   },
   {
-    "revision": "91d882c6500a44bac8d3",
+    "revision": "84b594076d82bee91ae3",
     "url": "/hello-sosed/static/css/main.ab6ba8d6.chunk.css"
   },
   {
-    "revision": "f80dcb169e9f158e0176",
-    "url": "/hello-sosed/static/js/2.0db83af1.chunk.js"
+    "revision": "1aecf84e94a2f88d5234",
+    "url": "/hello-sosed/static/js/2.4ce4014e.chunk.js"
   },
   {
     "revision": "21ced859ea2b2d6b856d461ad6c2afed",
-    "url": "/hello-sosed/static/js/2.0db83af1.chunk.js.LICENSE.txt"
+    "url": "/hello-sosed/static/js/2.4ce4014e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "91d882c6500a44bac8d3",
-    "url": "/hello-sosed/static/js/main.f2dd0970.chunk.js"
+    "revision": "84b594076d82bee91ae3",
+    "url": "/hello-sosed/static/js/main.34d50f5f.chunk.js"
   },
   {
     "revision": "12c2f693776fccc6c04b",
