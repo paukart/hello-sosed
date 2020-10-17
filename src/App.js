@@ -7,6 +7,7 @@ import '@vkontakte/vkui/dist/vkui.css';
 import Home from './panels/Home';
 import Search from './panels/Search';
 
+
 const App = () => {
 	const [activePanel, setActivePanel] = useState('home');
 	const [fetchedUser, setUser] = useState(null);
@@ -31,11 +32,15 @@ const App = () => {
 	const go = e => {
 		setActivePanel(e.currentTarget.dataset.to);
 	};
+	
+	async function test(){
+		
+		};
 
 	return (
 		<View activePanel={activePanel} popout={popout}>
 			<Home id='home' fetchedUser={fetchedUser} go={go} />
-			<Search id='search' fetchedUser={fetchedUser} go={go} />
+			<Search id='search' fetchedUser={fetchedUser} go={go} test={test} />
 		</View>
 	);
 }
