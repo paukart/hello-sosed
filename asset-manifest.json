@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/hello-sosed/static/css/main.ab6ba8d6.chunk.css",
+    "main.js": "/hello-sosed/static/js/main.f2dd0970.chunk.js",
+    "main.js.map": "/hello-sosed/static/js/main.f2dd0970.chunk.js.map",
+    "runtime-main.js": "/hello-sosed/static/js/runtime-main.afb583b7.js",
+    "runtime-main.js.map": "/hello-sosed/static/js/runtime-main.afb583b7.js.map",
+    "static/css/2.86df01db.chunk.css": "/hello-sosed/static/css/2.86df01db.chunk.css",
+    "static/js/2.0db83af1.chunk.js": "/hello-sosed/static/js/2.0db83af1.chunk.js",
+    "static/js/2.0db83af1.chunk.js.map": "/hello-sosed/static/js/2.0db83af1.chunk.js.map",
+    "index.html": "/hello-sosed/index.html",
+    "precache-manifest.a06c521fca63f4b93640d51b8d8134ff.js": "/hello-sosed/precache-manifest.a06c521fca63f4b93640d51b8d8134ff.js",
+    "service-worker.js": "/hello-sosed/service-worker.js",
+    "static/css/2.86df01db.chunk.css.map": "/hello-sosed/static/css/2.86df01db.chunk.css.map",
+    "static/css/main.ab6ba8d6.chunk.css.map": "/hello-sosed/static/css/main.ab6ba8d6.chunk.css.map",
+    "static/js/2.0db83af1.chunk.js.LICENSE.txt": "/hello-sosed/static/js/2.0db83af1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.afb583b7.js",
+    "static/css/2.86df01db.chunk.css",
+    "static/js/2.0db83af1.chunk.js",
+    "static/css/main.ab6ba8d6.chunk.css",
+    "static/js/main.f2dd0970.chunk.js"
+  ]
+}
