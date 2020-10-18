@@ -50,7 +50,7 @@ const Final = ({ id, go}) => (
 		</PanelHeader>
 			<Group header={<Header mode="secondary">Создать чат</Header>}>
 			<Div style={{color: 'gray'}}>
-				Следующие пользователи у вас в друзьях уже заходили в наше приложение, если кто-то из них ваш сосед, поставьте отметку и мы также добавим его в Ваш домовой чат:
+				Следующие пользователи у Вас в друзьях могут являться вашими соседями, если это так отметьте их и мы автоматически пригласим их в ваш общедомовой чат:
         	</Div>
               <List>
                 <Cell selectable before={ <Avatar size={40} src={"https://sun1-27.userapi.com/impg/Ph5aApHVJ74CsjdB426m2jIk-rT1J9WOJs_-0Q/ommv_G77wxE.jpg?size=200x0&quality=88&crop=664,656,823,823&sign=5a14d0ef6383eaada9d93681b8cd3fa3&c_uniq_tag=s--z-iZVQYImWCbxQFfpyg2JTQw4FxB-Aejc8I-TF8Q&ava=1"} /> }>Яна Соболева</Cell>
