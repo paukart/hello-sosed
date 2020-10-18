@@ -3,9 +3,10 @@ import bridge from '@vkontakte/vk-bridge';
 import View from '@vkontakte/vkui/dist/components/View/View';
 import ScreenSpinner from '@vkontakte/vkui/dist/components/ScreenSpinner/ScreenSpinner';
 import '@vkontakte/vkui/dist/vkui.css';
-
 import Home from './panels/Home';
 import Search from './panels/Search';
+import Final from './panels/Final';
+import Link from './panels/Link';
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
 	const [fetchedUser, setUser] = useState(null);
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
 
+	
 	useEffect(() => {
 		bridge.subscribe(({ detail: { type, data }}) => {
 			if (type === 'VKWebAppUpdateConfig') {
@@ -32,15 +34,13 @@ const App = () => {
 	const go = e => {
 		setActivePanel(e.currentTarget.dataset.to);
 	};
-	
-	async function test(){
-		
-		};
 
 	return (
 		<View activePanel={activePanel} popout={popout}>
 			<Home id='home' fetchedUser={fetchedUser} go={go} />
-			<Search id='search' fetchedUser={fetchedUser} go={go} test={test} />
+			<Search id='search' fetchedUser={fetchedUser} go={go} />
+			<Final id='final' go={go} />
+			<Link id='link' go={go} />
 		</View>
 	);
 }
