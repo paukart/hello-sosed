@@ -6,6 +6,9 @@ import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader
 import Button from '@vkontakte/vkui/dist/components/Button/Button';
 import Group from '@vkontakte/vkui/dist/components/Group/Group';
 import Div from '@vkontakte/vkui/dist/components/Div/Div';
+//Logo
+import logo from '../img/logo.png';
+import './style.css';
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
@@ -17,6 +20,7 @@ const Home = ({ id, go, fetchedUser }) => (
 		<Group title="Переход на страницу пользователя">
 			<Div>
 			<Div align="center" style={{color: 'gray'}}>
+				<img className="Logo" src={logo} alt="Логотип"></img>
 				Данное приложение позволит вам найти своих соседей по дому и даже объединиться с ними в один чат!
           	</Div>
 				<Button size="xl" onClick={go} data-to="search">
