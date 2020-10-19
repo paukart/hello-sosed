@@ -33,20 +33,10 @@ const Search = ({ id, go, fetchedUser}) => (
         <Input type="text" defaultValue="Дом" />
       </FormLayoutGroup>
     </FormLayout>
-    <Div style={{color: 'gray'}}>
-		Ни одного чата в доме ещё нет*:
+    <Div>
 		<Button size="l" onClick={go} data-to="final">
 					Поиск
 		</Button>
-	</Div>
-	<Div style={{color: 'gray'}}>
-		Чат в доме уже присутствует*:
-	<Button size="l" onClick={go} data-to="link">
-					Поиск
-	</Button>
-	</Div>
-	<Div style={{color: 'gray'}}>
-		* - демонстрационная надпись, будет убрана в релизе.
 	</Div>
 	</Panel>
 );
